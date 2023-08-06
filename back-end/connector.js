@@ -6,8 +6,12 @@ let mongoose = require("mongoose");
 
 
 // for development.
-const mongoURI = "mongodb://localhost:27017/" + "bookMovie"
+const mongoURI = "mongodb+srv://root-parth:XGo78YqdtwGJpUXA@cluster0.pcdvqxg.mongodb.net/?retryWrites=true&w=majority"
+// const mongoURI = "mongodb://localhost:27017/" + "bookMovie"
+
+
 const connectToMongo = async () => {
+
   // Connecting to database using connection string and speciying if there is any error or it was successfull
   mongoose
     .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
