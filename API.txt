@@ -1,0 +1,24 @@
+
+{
+  movie: "Suraj par mangal bhari",   // The name of the movie being booked
+  slot: "10:00 AM",                  // The time slot for the movie
+  seats: {                           // Seat availability information
+    A1: 2,    // Number of available seats for seat A1
+    A2: "",   // Number of available seats for seat A2 (unavailable)
+    A3: "",   // Number of available seats for seat A3 (unavailable)
+    A4: "",   // Number of available seats for seat A4 (unavailable)
+    D1: "",   // Number of available seats for seat D1 (unavailable)
+    D2: "",   // Number of available seats for seat D2 (unavailable)
+  }
+}
+```
+
+In this description:
+
+- **movie**: The title of the movie being booked is "Suraj par mangal bhari".
+- **slot**: The movie is scheduled for screening at "10:00 AM".
+- **seats**: This section provides details about the availability of seats in different sections of the theater.
+  - **A1**: There are 2 available seats in section A1.
+  - **A2**, **A3**, **A4**, **D1**, **D2**: These seats are marked as unavailable (empty strings), indicating that no seats are available in these sections.
+
+This information seems to represent a snapshot of the available seats and movie details for a particular time slot. It could be used to manage bookings and provide information to customers interested in watching the movie "Suraj par mangal bhari" during the specified time slot.
